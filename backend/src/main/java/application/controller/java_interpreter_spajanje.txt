@@ -1,0 +1,32 @@
+/* Colt libraries needed to run the package
+
+import cern.colt.function.DoubleDoubleFunction;
+import cern.colt.matrix.DoubleFactory2D;
+import cern.colt.matrix.DoubleMatrix2D;
+import cern.colt.matrix.linalg.Algebra;
+
+*/
+
+/* trebati cu importati package iz matrica foldera
+
+//TO DO
+
+*/
+
+/* kako doci od stringa do stringa
+
+        //lekseriram
+        Lexer lex = Lexer.getInstanceLexer();
+
+        //tokeniziram
+        lex.Tokeniziraj(tmp.getInput());
+        List<Token> tokeni = lex.getTokeni();
+
+        //interpretiram i parsiram
+        PInterpreter interpreter = PInterpreter.getInstance();
+        DoubleMatrix2D matrica = interpreter.parsiraj(tokeni);
+
+        //matricu pretvaram u string opet
+        String new_output = matrica.toString();
+
+*/

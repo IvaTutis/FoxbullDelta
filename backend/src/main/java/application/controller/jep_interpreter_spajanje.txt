@@ -1,0 +1,69 @@
+/*library import za spajanje
+
+import jep.Jep;
+import jep.JepException;
+
+*/
+
+/*svaka funkcija koja prima objekt Expression da ga pipka interpreterom baca JEPerror
+
+    // create employee rest api
+    @PostMapping("/users")
+    public User  createEmployee(@RequestBody User korisnik) throws JepException {
+
+    }
+
+*/
+
+/*za slanje stringa interpreteru za aritmetiku
+
+Jep jep = new Jep(false,"/home/iva/java_project-main/lucija/aplikacija/springboot-helloworld-tutorial/src/");
+jep.set("ulaz", tmp.getName());
+jep.runScript("src/interpreter_python_scripts/aritmetikaBrojeva.py");
+String new_output = jep.getValue("s").toString();
+
+*/
+
+/*za slanje stringa interpreteru za logiku
+//DA LI TREBA JOS OBRADITI INPUT PRIJE ZLOSTAVLJANJA - PITATI LUCIJU (QUICKEST)
+
+Jep jep = new Jep(false,"/home/iva/java_project-main/lucija/aplikacija/springboot-helloworld-tutorial/src/");
+jep.set("ulaz", "("+tmp.getInput()+")");
+jep.set("brojVarijabli", tmp.getNumberOfVariables());
+jep.set("nizIstinitosti", test);
+jep.runScript("src/interpreter_python_scripts/logikaSudova.py");
+String new_output = jep.getValue("s").toString();
+
+
+*/
+
+/*funkcije koje treba drmnuti u kontroler
+
+    private static boolean[] napravi_niz(boolean[] test, String binarni_string) {
+        char[] niz = binarni_string.toCharArray();
+        int n = niz.length;
+        for(int i = 0; i < n; i++){
+            if(niz[i] == '0'){
+                test[i] = false;
+            }else{
+                test[i] = true;
+            }
+        }
+        return test;
+    }
+
+   private static String dodaj_nule(String binarni_broj, int n) {
+        StringBuilder sb = new StringBuilder();
+        n = n - binarni_broj.length();
+        for(int i = 0; i < n; i++){
+            sb.append('0');
+        }
+        sb.append(binarni_broj);
+        return sb.toString();
+    }
+
+    private static String pretvori_u_binarni(int i) {
+        return Integer.toBinaryString(i);
+    }
+
+*/
