@@ -4,6 +4,7 @@ This project was made in IntelliJ on Ubuntu 20.04, using spring-boot framework w
 
 Database used:
 MySQL
+> For using it with the local database, change variables in application.properties
 
 Preffered IDE on Ubuntu 20.04, since it comes with both Spring and Maven:
 
@@ -24,3 +25,4 @@ HAVE to be reassigned manually for the application (or tests) to run.
 
 Main SpringBoot backend app, the running of which runs the backend
 > backend/src/main/java/application/SpringbootBackendApplication.java
+
